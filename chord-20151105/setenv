@@ -1,0 +1,6 @@
+export CHORD_MAIN=$(pwd)/jchord/main
+export CHORD_INCUBATOR=$(pwd)/incubator
+export PJBENCH=$(pwd)/pjbench
+export PAG_BENCH=$PJBENCH # dummy
+export MLN=$PJBENCH # dummy
+export PATH=$(pwd)/incubator/scripts:$PATH

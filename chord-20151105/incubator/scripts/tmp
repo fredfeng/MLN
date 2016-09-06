@@ -1,0 +1,18 @@
+* random_parameters
+* optimize_with_coordinate_ascent
+* save_parameters
+* apply_substitution
+* simplify_likelihood
+* optimize_with_gradient_ascent
+* optimize_with_hopping
+* optimize_with_scipy
+
+* likelihood_lowerbound
+* relpoly_of_cnf
+* likelihood_upperbound
+* likelihood_of_independent_samples
+- cleanup
+('add',
+  [ ('mul', [('var', 'x'), ('not', ('var', 'y'))])
+  , ('mul', [('not', ('var', 'x')), ('var', 'y')])
+  , ('mul', [('var', 'x'), ('var', 'y')]) ])
